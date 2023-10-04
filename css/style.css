@@ -1,0 +1,136 @@
+body {
+  height: 100%;
+  background: grey url("../img/backgroundtheme.webp") repeat center fixed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar_container {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 70%;
+  height: 80px;
+  background-color: rgba(28, 26, 26, 0.86);
+  margin-top: 15px;
+  margin-left: 15%;
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+
+.navbar_container nav {
+  width: 100%;
+  margin-right: 30px;
+}
+.navbar_container nav ul {
+  display: flex;
+  justify-content: space-around;
+
+  margin-right: 20px;
+}
+
+.navbar_container nav ul li:hover {
+  border-radius: 10px;
+  background-color: lightgray;
+}
+.navbar_container nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 0 5px;
+}
+
+.navbar_container nav ul li:hover a {
+  color: black;
+}
+.main_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  padding-top: 150px;
+}
+.svg_container {
+  width: 90%;
+  background-color: rgba(49, 49, 49, 0.871);
+  height: 500px;
+  margin-bottom: 100px;
+}
+
+.svg_container .svg_content {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+}
+.svg_container .svg_content img {
+  padding-left: 20px;
+}
+.svg_container .link {
+  display: inline-block;
+  margin-top: 120px;
+  padding-left: 15px;
+}
+.svg_container p {
+  color: white;
+  display: none;
+  margin-top: 1px;
+  font-size: 20px;
+}
+.svg_container .link img:hover {
+  transform: scale(1.1);
+}
+.svg_container .link:hover p {
+  display: block;
+}
+.content_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 90%;
+  background-color: rgba(121, 110, 165, 0.871);
+  background: url("../img/backgroundtheme.webp") repeat 0 0;
+  margin-bottom: 100px;
+}
+
+.content_container img {
+  padding: 20px;
+}
+
+.content_container p {
+  font-size: 20px;
+  margin-top: 100px;
+  height: 60px;
+  padding: 10px;
+  display: none;
+  border-radius: 5px;
+  background-color: #cbccc6;
+}
+.content_container:hover p {
+  display: block;
+}
+
+.design_container {
+  background-color: rgba(35, 38, 38, 0.678);
+  height: 300px;
+  width: 100%;
+  background: url("../svg/Dotted\ Shape.svg") no-repeat 5% 50%,
+    url("../img/Oval.svg") no-repeat 90% 58%;
+  background-color: rgba(35, 38, 38, 0.678);
+}
+.design_container div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.design_container p {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(199, 84, 212);
+}
+.design_container img {
+  margin-top: 40px;
+}
